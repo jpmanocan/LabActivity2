@@ -14,10 +14,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="213dp"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/binondochurch" />
+            app:srcCompat="@drawable/chinesecemetery" />
 
         <TextView
             android:id="@+id/textView2"
@@ -36,18 +36,16 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_weight="1"
-            android:text="Location: Plaza L.Ruiz,Binondo 1006,Manila, Binondo, Manila, Metro Manila"
-            app:fontFamily="@font/open_sans_italic"
-            tools:text="Plaza L.Ruiz,Binondo 1006,Manila, Binondo, Manila, Metro Manila" />
+            android:text="Location: Aurora Boulevard, Manila, Luzon Philippines"
+            app:fontFamily="@font/open_sans_italic" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="8dp"
             android:layout_weight="1"
-            android:text="From UST to Binondo Church: 3.3 Kilometers"
-            app:fontFamily="@font/open_sans_italic"
-            tools:text="From UST to Binondo Church: 3.3 Kilometers" />
+            android:text="Distance from UST: 1.9 km"
+            app:fontFamily="@font/open_sans_italic" />
 
     </LinearLayout>
 

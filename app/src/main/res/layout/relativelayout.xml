@@ -4,32 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="217dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="42dp"
-        app:srcCompat="@drawable/rizalpark" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="LUNETA PARK"
-        android:textSize="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="215dp"
+        android:text="NATIONAL MUSEUM"
+        android:textSize="35sp"
         app:fontFamily="@font/open_sans_bold" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="209dp"
-        android:text="Location: Roxas Blvd, Malate, Manila, 1000 Metro Manila"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="163dp"
+        android:text="Location: Padre Burgos Ave Ermita, Manila, Luzon 2004 Philippines"
         app:fontFamily="@font/open_sans_italic" />
 
     <TextView
@@ -37,9 +30,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView5"
-        android:layout_marginBottom="173dp"
-        android:text="From UST to Luneta Park: 3.3 Kilometers"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="133dp"
+        android:text="Distance from UST: 3.6 km"
         app:fontFamily="@font/open_sans_italic" />
 
     <Button
@@ -47,9 +40,8 @@
         android:layout_width="159dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="66dp"
-        android:layout_marginStart="16dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="72dp"
         android:text="Back" />
 
     <Button
@@ -60,4 +52,12 @@
         android:layout_alignTop="@+id/button"
         android:layout_marginEnd="16dp"
         android:text="NEXT" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/nationalmuseum" />
 </RelativeLayout>
